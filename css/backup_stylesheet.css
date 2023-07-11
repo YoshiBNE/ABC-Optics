@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #008FAD;
+    flex-flow: column;
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* * * Header * * */
+header {
+    display: flex;
+    width: 100%;
+    background-color: #008FAD;
+    margin: 0 2em 0 0;
+    padding: 0 2em 0 0;
+    position: fixed;
+    flex-flow: column;
+    z-index: 4;
+    background-image: url(/image/chuttersnap-G8ioIHUDfNc-unsplash.jpg);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+/* * * NAVBAR * * */
+a {
+    color: white;
+}
+
+.navbar {
+    background-color: #008FAD;
+    opacity: 75%;
+}
+
+.navbar-button {
+    list-style-type: none;
+    height: 1em;
+}
+
+.navbar-button li {
+    float: left;
+    padding: 0 0 0 1em;
+}
+/* * * * * */
+/* * * * * * * * */
+
+/* * * * * * MAIN CONTENTS * * * * * */
+
+.main-content {
+    display: flex;
+    flex-flow: column;   
+    width: 100%;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    height: 28em;
+    width: 100%;
+}
+
+#about {
+    background-color: #40abc0;
+    padding: 18em 0 0 0;
+    margin: -9em 0 0 0;
+    z-index: 3;
+}
+
+#services {
+    background-color: #00B3E0;
+    padding: 9em 0 0 0;
+    margin: -9em 0 0 0;
+    z-index: 2;
+}
+
+#staffs {
+    background-color: #40abc0;
+    padding: 9em 0 0 0;
+    margin: -9em 0 0 0;
+    z-index: 1;
+}
+
+#contact {
+    height: 30em;
+    background-color: #00B3E0;
+    padding: 9em 0 0 0;
+    margin: -9em 0 0 0;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.content-text {
+    margin: 0 10% 0 10%;
+    min-width: 500px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+img {
+    /* height: 100%; */
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    opacity: 50%;
+    object-fit: cover;
+}
+
+/* * * * * * * * * * * * * * * * * * */
+
+/* * * FOOTER * * * */
+footer {
+    text-align: center;
+}
+/* * * FOOTER * * * */
+
+@media only screen and (max-width:420px) {
+    body {
+        font-size: 20px;
+    }
+
+    section {
+        height: 32em;
+        flex-direction: column;
+    }
+
+    #about {
+        background-image: url(/image/adam-winger-Lce8uz19jX8-unsplash.jpg);
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    #services {
+        background-image: url(/image/nrd-aMmDIsdnUro-unsplash.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    #staffs {
+        background-image: url(/image/ivan-cruz-oQdpelfogoo-unsplash.jpg);
+        background-size: 200%;
+        background-position: bottom;
+    }
+
+    #contact {
+        background-image: url(/image/pexels-edslan-silva-16692933.jpg);
+        background-size: contain;
+        background-position: bottom;
+        padding-bottom: 2em;
+    }
+
+    img {
+        display: none;
+    }
+
+    .content-text {
+        background-color: rgba(0,0,0,0.6);
+        background-blend-mode:lighten;
+        padding: 1em;
+        min-width: 300px;
+    }
+
+    
+}

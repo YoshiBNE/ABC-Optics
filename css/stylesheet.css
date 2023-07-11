@@ -1,0 +1,210 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #008FAD;
+    flex-flow: column;
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* * * Header * * */
+header {
+    display: flex;
+    width: 100%;
+    background-color: #008FAD;
+    margin: 0 1em 0 0;
+    padding: 0 1em 0 0;
+    position: fixed;
+    flex-flow: column;
+    z-index: 4;
+    background-image: url(/image/chuttersnap-G8ioIHUDfNc-unsplash.jpg);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.25em 0 0.25em 0.5em;
+}
+
+/* * * NAVBAR * * */
+a {
+    color: white;
+}
+
+.navbar {
+    background-color: #008FAD;
+    opacity: 75%;
+}
+
+.navbar-button {
+    list-style-type: none;
+    height: 1em;
+}
+
+.navbar-button li {
+    float: left;
+    padding: 0 0 0 1em;
+}
+/* * * * * */
+/* * * * * * * * */
+
+/* * * * * * MAIN CONTENTS * * * * * */
+
+.main-content {
+    display: flex;
+    flex-flow: column;   
+    width: 100%;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    height: 28em;
+    width: 100%;
+}
+
+#about {
+    background-color: #40abc0;
+    padding: 12em 0 0 0;
+    margin: -6em 0 0 0;
+    z-index: 3;
+}
+
+#services {
+    background-color: #00B3E0;
+    padding: 6em 0 0 0;
+    margin: -6em 0 0 0;
+    z-index: 2;
+}
+
+#staffs {
+    background-color: #40abc0;
+    padding: 6em 0 0 0;
+    margin: -6em 0 0 0;
+    z-index: 1;
+}
+
+#contact {
+    height: 30em;
+    background-color: #00B3E0;
+    padding: 6em 0 0 0;
+    margin: -6em 0 0 0;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.content-text {
+    margin: 0 10% 0 10%;
+    width: 70%;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+img {
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    object-fit: cover;
+}
+
+/* * * * * * * * * * * * * * * * * * */
+
+/* * * FOOTER * * * */
+footer {
+    text-align: center;
+}
+/* * * FOOTER * * * */
+
+@media only screen and (max-width:420px) {
+    body {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    header {
+        background-color: rgba(0,0,0,0.5);
+        background-blend-mode:darken;
+        background-size: 100%;
+        background-position: bottom;;
+    }
+
+    h1 {
+        margin: 0.5em 0 0.5em 0.2em;
+    }
+
+    .navbar {
+        text-align: left;
+        margin-left: -2.5em;
+        font-size: 0.8em;
+        opacity: 90%;
+    }
+
+    section {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #about {
+        background-image: url(/image/adam-winger-Lce8uz19jX8-unsplash.jpg);
+        background-size: 180%;
+        background-position: bottom;
+    }
+
+    #services {
+        background-image: url(/image/nrd-aMmDIsdnUro-unsplash.jpg);
+        background-size: 220%;
+        background-position: bottom;
+    }
+
+    #staffs {
+        background-image: url(/image/ivan-cruz-oQdpelfogoo-unsplash.jpg);
+        background-size: 250%;
+        background-position: bottom;
+    }
+
+    #contact {
+        background-image: url(/image/pexels-edslan-silva-16692933.jpg);
+        background-size: 150%;
+        background-position: bottom;
+        padding-bottom: 2em;
+    }
+
+    img {
+        display: none;
+
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .content-text {
+        background-color: rgba(0,0,0,0.6);
+        background-blend-mode:lighten;
+        margin: 1em 0 1em 0;
+        padding: 1.5em;
+        min-width: 300px;
+    }
+
+    
+}
