@@ -34,6 +34,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: yellow;
+}
+
 .navbar {
     background-color: #008FAD;
     opacity: 75%;
