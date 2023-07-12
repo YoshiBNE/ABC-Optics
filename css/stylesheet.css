@@ -20,7 +20,7 @@ header {
     position: fixed;
     flex-flow: column;
     z-index: 4;
-    background-image: url(/image/chuttersnap-G8ioIHUDfNc-unsplash.jpg);
+    background-image: url(/image/pairs_of_glasses.jpg);
 }
 
 h1 {
@@ -73,7 +73,6 @@ h2 {
 section {
     display: flex;
     flex-direction: row;
-    /* height: 28em; */
     width: 100%;
 }
 
@@ -102,7 +101,6 @@ section {
 }
 
 #contact {
-    height: 30em;
     /* background-color: #00B3E0; */
     background-color: #8D6907;
     padding: 6em 0 0 0;
@@ -120,12 +118,16 @@ h3 {
 
 .content-text {
     margin: 0 10% 0 10%;
+    padding: 0 4em 0 4em;
     width: 70%;
+    background-color: white;
+    color: black;
 }
 
 p {
     text-align: justify;
     line-height: 1.5em;
+    
 }
 
 img {
@@ -142,6 +144,11 @@ img {
 footer {
     text-align: center;
     color: black;
+}
+
+.wcag21 {
+    display: inline-block;
+    
 }
 /* * * FOOTER * * * */
 
@@ -175,14 +182,14 @@ footer {
     }
 
     #about {
-        background-image: url(/image/adam-winger-Lce8uz19jX8-unsplash.jpg);
+        background-image: url(/image/girl_with_glasses.jpg);
         background-size: 180%;
         background-position: bottom;
         padding-top: 13.5em;
     }
 
     #services {
-        background-image: url(/image/nrd-aMmDIsdnUro-unsplash.jpg);
+        background-image: url(/image/eye_examination.jpg);
         background-size: 280%;
         background-position: bottom;
         padding-top: 8em;
@@ -190,7 +197,7 @@ footer {
     }
 
     #staffs {
-        background-image: url(/image/ivan-cruz-oQdpelfogoo-unsplash.jpg);
+        background-image: url(/image/staff_with_glasses.jpg);
         background-size: 250%;
         background-position: bottom;
         padding-top: 8em;
@@ -198,7 +205,7 @@ footer {
     }
 
     #contact {
-        background-image: url(/image/pexels-edslan-silva-16692933.jpg);
+        background-image: url(/image/glasses_on_desk.jpg);
         background-size: 150%;
         background-position: bottom;
         padding-bottom: 2em;
@@ -210,7 +217,6 @@ footer {
 
     img {
         display: none;
-
     }
 
     h2 {
@@ -218,12 +224,14 @@ footer {
     }
 
     .content-text {
-        background-color: rgba(0,0,0,0.6);
-        background-blend-mode:lighten;
+        background-color: rgb(255, 255, 255, 0.7);
+        background-blend-mode:darken;
         margin: 1em 0 1em 0;
         padding: 1.5em;
         min-width: 300px;
     }
 
-    
+    .wcag21 {
+        display: inline-block;
+    }
 }
