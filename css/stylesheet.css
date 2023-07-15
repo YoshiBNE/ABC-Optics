@@ -20,7 +20,7 @@ header {
     position: fixed;
     flex-flow: column;
     z-index: 4;
-    background-image: url(https://yoshibne.github.io/ABC-Optics/image/pairs_of_glasses.jpg);
+    background-image: url(/image/pairs_of_glasses.jpg);
 }
 
 h1 {
@@ -32,7 +32,6 @@ h1 {
 /* * * NAVBAR * * */
 a {
     color: white;
-
 }
 
 a:hover {
@@ -86,7 +85,8 @@ section {
 
 #services {
     /* background-color: #00B3E0; */
-    background-color: #8D6907;
+    /* background-color: #8D6907; */
+    background-color: #f1d37f;
     padding: 6em 0 0 0;
     margin: -6em 0 0 0;
     z-index: 2;
@@ -102,9 +102,14 @@ section {
 
 #contact {
     /* background-color: #00B3E0; */
-    background-color: #8D6907;
+    background-color: #f1d37f;
     padding: 6em 0 0 0;
     margin: -6em 0 0 0;
+}
+
+#contact .content-text {
+    margin: 0 20% 0 20%;
+    line-height: 2em;
 }
 
 h3 {
@@ -182,14 +187,14 @@ footer {
     }
 
     #about {
-        background-image: url(https://yoshibne.github.io/ABC-Optics/image/girl_with_glasses.jpg);
+        background-image: url(/image/girl_with_glasses.jpg);
         background-size: 180%;
         background-position: bottom;
         padding-top: 13.5em;
     }
 
     #services {
-        background-image: url(https://yoshibne.github.io/ABC-Optics/image/eye_examination.jpg);
+        background-image: url(/image/eye_examination.jpg);
         background-size: 280%;
         background-position: bottom;
         padding-top: 8em;
@@ -197,7 +202,7 @@ footer {
     }
 
     #staffs {
-        background-image: url(https://yoshibne.github.io/ABC-Optics/image/staff_with_glasses.jpg);
+        background-image: url(/image/staff_with_glasses.jpg);
         background-size: 250%;
         background-position: bottom;
         padding-top: 8em;
@@ -205,7 +210,7 @@ footer {
     }
 
     #contact {
-        background-image: url(https://yoshibne.github.io/ABC-Optics/image/glasses_on_desk.jpg);
+        background-image: url(/image/glasses_on_desk.jpg);
         background-size: 150%;
         background-position: bottom;
         padding-bottom: 2em;
