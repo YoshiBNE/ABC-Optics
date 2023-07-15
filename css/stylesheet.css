@@ -20,7 +20,7 @@ header {
     position: fixed;
     flex-flow: column;
     z-index: 4;
-    background-image: url(/image/pairs_of_glasses.jpg);
+    background-image: url(https://yoshibne.github.io/ABC-Optics/image/pairs_of_glasses.jpg);
 }
 
 h1 {
@@ -187,14 +187,14 @@ footer {
     }
 
     #about {
-        background-image: url(/image/girl_with_glasses.jpg);
+        background-image: url(https://yoshibne.github.io/ABC-Optics/image/girl_with_glasses.jpg);
         background-size: 180%;
         background-position: bottom;
         padding-top: 13.5em;
     }
 
     #services {
-        background-image: url(/image/eye_examination.jpg);
+        background-image: url(https://yoshibne.github.io/ABC-Optics/image/eye_examination.jpg);
         background-size: 280%;
         background-position: bottom;
         padding-top: 8em;
@@ -202,7 +202,7 @@ footer {
     }
 
     #staffs {
-        background-image: url(/image/staff_with_glasses.jpg);
+        background-image: url(https://yoshibne.github.io/ABC-Optics/image/staff_with_glasses.jpg);
         background-size: 250%;
         background-position: bottom;
         padding-top: 8em;
@@ -210,7 +210,7 @@ footer {
     }
 
     #contact {
-        background-image: url(/image/glasses_on_desk.jpg);
+        background-image: url(https://yoshibne.github.io/ABC-Optics/image/glasses_on_desk.jpg);
         background-size: 150%;
         background-position: bottom;
         padding-bottom: 2em;
